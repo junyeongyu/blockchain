@@ -26,9 +26,11 @@ Block
 Block hash algorithm
  - SHA-256: produce 32-byte hash value
 
+Hash Validation
+
 
 ## Test
- - npm run dev-test
+ - yarn test
 
 ## References
  - https://github.com/15Dkatz/sf-chain-guides
