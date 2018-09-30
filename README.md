@@ -23,5 +23,12 @@ Block
  - Hash
  - The data to store
 
-##References
+Block hash algorithm
+ - SHA-256: produce 32-byte hash value
+
+
+## Test
+ - npm run dev-test
+
+## References
  - https://github.com/15Dkatz/sf-chain-guides
