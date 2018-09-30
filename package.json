@@ -4,12 +4,13 @@
   "main": "index.js",
   "repository": "git@github.com:junyeongyu/blockchain.git",
   "scripts": {
-    "test": "echo 'test' && exit 1",
+    "test": "jest --watchAll",
     "dev-test": "nodemon dev-test"
   },
   "author": "junyeong",
   "license": "MIT",
   "devDependencies": {
+    "jest": "^23.6.0",
     "nodemon": "^1.18.4"
   },
   "dependencies": {
