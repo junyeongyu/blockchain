@@ -19,7 +19,7 @@ class Block {
             Nonce     : ${this.nonce}
             Difficulty: ${this.difficulty}
             Data      : ${this.data}
-        `; 
+        `;
     }
 
     static genesis() {
