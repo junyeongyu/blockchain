@@ -48,6 +48,22 @@ Proof of Work System
  - A dishonest miner has more than at least 51% of the network's power
  - A 51% attack for bitcoin would be more than $6 billion (as of 2018)
 
+Wallet
+ - Wallets store the balance of an individual.
+ - They store an individual's keys.
+ - Private key is used to generate signatures
+ - public key is used to verify signiture and public address
+
+Transaction
+ - ex) Input: timestamp, Balance: 500, signiture, sender's public key: OxfooOne
+
+Digital Signatures
+
+Blockchain-powered Cryptocurrencies
+ - Contain wallet objects
+ - Keys for digial signatures and verification
+ - Have transactions objects to represent currency exchange
+
 ## Test
  - yarn test
 
