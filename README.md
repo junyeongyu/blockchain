@@ -67,6 +67,11 @@ Blockchain-powered Cryptocurrencies
 Transaction Pool
  - An object that contains all new transactions submitted by individuals.
 
+Miners of Transacions
+ - Miner take transactions from the pool and store them into block
+ - Miner receive rewards for mining
+ - Transactions go from "unconfirmed" in the pool to "confirmed" in the chain
+
 ## Test
  - yarn test
 
