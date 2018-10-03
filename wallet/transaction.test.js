@@ -17,7 +17,7 @@ describe('Transaction', () => {
     });
 
     it('outputs the `amount` added to the recipient', () => {
-        excpect(transaction.outputs.find(output => output.address === recipient).amount)
+        expect(transaction.outputs.find(output => output.address === recipient).amount)
             .toEqual(amount);
     });
 
