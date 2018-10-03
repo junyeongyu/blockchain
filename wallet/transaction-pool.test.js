@@ -13,7 +13,7 @@ describe('TransactionPool', () => {
     });
 
     it('adds a transaction to the pool', () => {
-        expect(tp.transactions.find(t = t.id === transaction.id)).toEqual(transaction);
+        expect(tp.transactions.find(t => t.id === transaction.id)).toEqual(transaction);
     });
 
     it('updates a transaction in the pool', () => {

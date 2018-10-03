@@ -3,7 +3,7 @@ class TransactionPool {
         this.transactions = [];
     }
 
-    updateOrAddTransaction(tansaction) {
+    updateOrAddTransaction(transaction) {
         let transactionWithId = this.transactions.find(t => t.id === transaction.id);
 
         if (transactionWithId) {
@@ -14,7 +14,7 @@ class TransactionPool {
     }
 
     existingTransaction(address) {
-        return this.transations.find(t => t.input.address === address);
+        return this.transactions.find(t => t.input.address === address);
     }
 }
 
