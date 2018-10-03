@@ -64,6 +64,9 @@ Blockchain-powered Cryptocurrencies
  - Keys for digial signatures and verification
  - Have transactions objects to represent currency exchange
 
+Transaction Pool
+ - An object that contains all new transactions submitted by individuals.
+
 ## Test
  - yarn test
 
