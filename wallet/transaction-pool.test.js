@@ -25,6 +25,11 @@ describe('TransactionPool', () => {
             .not.toEqual(oldTransaction);
     });
 
+    it('clears transactions', () => {
+        tp.clear();
+        expect(tp.transactions).toEqual([]);
+    })
+
     describe('mixing valid and corrupt transactions', () => {
         let validTransactions;
 
@@ -42,7 +47,7 @@ describe('TransactionPool', () => {
         });
 
         it('shows a difference between valid and corrupt transaction', () => {
-            expect(JSON.stringfy(tp.transactions)).not.equal(JSON.stringify(validTransactions));
+            expect(JSON.stringify(tp.transactions)).not.equal(JSON.stringify(validTransactions));
         });
 
         it('grabs valid transaction', () => {
