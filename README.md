@@ -72,6 +72,12 @@ Miners of Transacions
  - Miner receive rewards for mining
  - Transactions go from "unconfirmed" in the pool to "confirmed" in the chain
 
+The Nuance of Wallet Balance
+ - Balance = all output amounts that belongs to a user.
+ - Update the balance at least before each transaction.
+ - All outputs since a user's most recent transaction.
+ - Possible double counting of transactions within the blockchain history.
+
 ## Test
  - yarn test
 
