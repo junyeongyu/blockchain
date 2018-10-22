@@ -60,7 +60,7 @@ describe('Wallet', () => {
        });
 
        describe('and the recipient conducts a transaction', () => {
-          let substractBalance, recipientBalance; 
+          let substractBalance, recipientBalance;  
 
           beforeEach(() => {
               tp.clear();
